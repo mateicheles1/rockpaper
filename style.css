@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #84eca9;
+}
+.hero--header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #54d9c9;
+  height: 15vw;
+  font-size: 5rem;
+}
+
+.container {
+  width: 960px;
+  height: 32vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji1,
+.emoji2,
+.emoji3 {
+  position: relative;
+  bottom: 5rem;
+  font-size: 3rem;
+}
+
+.emoji-container {
+  width: 20rem;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 5rem;
+  bottom: 3rem;
+}
+
+.emoji1:hover {
+  transform: translateY(-1rem);
+  cursor: pointer;
+}
+
+.emoji2:hover {
+  transform: translateY(-1rem);
+  cursor: pointer;
+}
+
+.emoji3:hover {
+  transform: translateY(-1rem);
+  cursor: pointer;
+}
+
+.player--side {
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 1rem;
+  position: relative;
+  right: 25rem;
+  bottom: 7rem;
+  padding: 1rem;
+}
+
+.highscore {
+  position: absolute;
+  top: 3.3rem;
+  right: 0.001rem;
+  padding: 1rem;
+  width: 8.6rem;
+}
+
+.btn--reset {
+  position: absolute;
+  left: 5%;
+  top: 12%;
+  border: none;
+  width: 8rem;
+  height: 3vw;
+  background: #2f4858;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn--reset:hover {
+  background-color: #676a8b;
+}
+
+.computer--side {
+  position: absolute;
+  bottom: 21.5rem;
+  right: 30.5rem;
+}
+
+.btn {
+  width: 12rem;
+  height: 5vw;
+  position: absolute;
+  bottom: 7rem;
+  background: #54d9c9;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.start--paragraph {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 10rem;
+  top: 35rem;
+}
